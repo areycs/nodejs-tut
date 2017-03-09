@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.13/angular.min.js"></script>
+	<script type="text/javascript" src="AppController.js"></script>
+	<title>AngularJS Demo</title>
+</head>
+<body ng-controller="AppController">
+	{{sum}}
+
+	<input type="text" ng-model="username"><br />
+	{{username}}<br /><br />
+
+	<button ng-click="sayHello()">Say Hello!</button>
+</body>
+</html>
